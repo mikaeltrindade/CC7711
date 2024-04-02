@@ -1,0 +1,115 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 26"]
+  },
+  {
+    "tag": "equipamentos_financiaveis_PIPE",
+    "patterns": ["Quais tipos de equipamentos podem ser financiados pelo PIPE?", "O PIPE financia a compra de equipamentos?"],
+    "responses": ["O PIPE financia a aquisição de Material Permanente, que inclui equipamentos necessários para a realização da pesquisa."]
+  },
+  {
+    "tag": "processo_selecao_PIPE",
+    "patterns": ["Como funciona o processo de seleção dos projetos no PIPE?", "Quais são os critérios de seleção do PIPE?"],
+    "responses": ["Os projetos no PIPE são avaliados por especialistas em suas áreas de conhecimento. Os critérios incluem relevância, inovação, viabilidade técnica e potencial de impacto."]
+  },
+  {
+    "tag": "resultados_esperados_PIPE",
+    "patterns": ["Quais são os resultados esperados de um projeto PIPE?", "O que se espera alcançar com um projeto financiado pelo PIPE?"],
+    "responses": ["Espera-se que os projetos PIPE resultem no desenvolvimento de produtos, processos ou serviços inovadores que contribuam para o avanço tecnológico e econômico da empresa e do Estado de São Paulo."]
+  },
+  {
+    "tag": "orientacoes_submissao_PIPE",
+    "patterns": ["Quais são as orientações para submissão de propostas ao PIPE?", "Onde posso encontrar as diretrizes para submeter um projeto ao PIPE?"],
+    "responses": ["As orientações para submissão de propostas ao PIPE estão disponíveis no site da FAPESP, juntamente com os formulários e documentos necessários."]
+  },
+  {
+    "tag": "apoio_pos_projeto_PIPE",
+    "patterns": ["O que acontece após a conclusão de um projeto financiado pelo PIPE?", "A FAPESP oferece algum apoio após o término do projeto no PIPE?"],
+    "responses": ["Após a conclusão do projeto, a empresa pode buscar outras formas de apoio para comercializar ou implementar os resultados da pesquisa, além de participar de programas de incentivo à inovação."]
+  },
+  {
+    "tag": "apoio_financeiro_PIPE",
+    "patterns": ["Qual é o montante de apoio financeiro oferecido pelo PIPE?", "Quanto dinheiro posso receber através do PIPE?"],
+    "responses": ["O montante de apoio financeiro varia de acordo com a fase do projeto e as necessidades específicas, sendo definido caso a caso pela FAPESP."]
+  },
+  {
+    "tag": "duracao_projetos_PIPE",
+    "patterns": ["Qual é a duração típica dos projetos financiados pelo PIPE?", "Por quanto tempo um projeto PIPE pode ser financiado?"],
+    "responses": ["A duração dos projetos PIPE pode variar de acordo com a fase e a complexidade do projeto, mas geralmente varia de 6 meses a 2 anos."]
+  },
+  {
+    "tag": "acompanhamento_projeto_PIPE",
+    "patterns": ["Como é feito o acompanhamento dos projetos financiados pelo PIPE?", "A FAPESP monitora o progresso dos projetos PIPE?"],
+    "responses": ["Sim, a FAPESP realiza o acompanhamento dos projetos PIPE, verificando o progresso e os resultados alcançados ao longo do tempo."]
+  },
+  {
+    "tag": "apoio_consultoria_PIPE",
+    "patterns": ["O PIPE oferece apoio para contratação de consultores externos?", "Posso contratar consultoria externa com recursos do PIPE?"],
+    "responses": ["Sim, o PIPE permite a contratação de consultores externos especializados, desde que seja justificado e esteja alinhado com os objetivos do projeto."]
+  },
+  {
+    "tag": "publicacoes_resultados_PIPE",
+    "patterns": ["Posso publicar os resultados do projeto financiado pelo PIPE?", "Qual é a política de publicações relacionadas aos projetos PIPE?"],
+    "responses": ["Sim, os resultados dos projetos PIPE podem ser publicados em periódicos científicos ou apresentados em conferências, desde que não comprometam a propriedade intelectual da empresa."]
+  },
+  {
+    "tag": "informacao_PIPE",
+    "patterns": ["O que é o PIPE?", "Como funciona o PIPE?", "Quero informações sobre o PIPE"],
+    "responses": ["O PIPE é o Programa FAPESP de Apoio à Pesquisa em Pequenas Empresas. Ele oferece financiamento para projetos de pesquisa com potencial de inovação em empresas do Estado de São Paulo."]
+    },
+    {
+    "tag": "requisitos_PIPE",
+    "patterns": ["Quais são os requisitos para o PIPE?", "O que é necessário para participardo PIPE?"],
+    "responses": ["Para participar do PIPE, a empresa precisa estar sediada no Estado de São Paulo e ter até 250 funcionários, independentemente do faturamento. Além disso, é necessário apresentar um projeto de pesquisa com potencial de inovação."]
+    },
+    {
+    "tag": "cronograma_PIPE",
+    "patterns": ["Qual é o cronograma de submissão do PIPE?", "Quando posso submeter uma proposta ao PIPE?"],
+    "responses": ["As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."]
+    },
+    {
+    "tag": "areas_prioritarias_PIPE",
+    "patterns": ["Quais são as áreas prioritárias no PIPE?", "O PIPE tem áreas específicas de interesse?"],
+    "responses": ["Não. O PIPE visa apoiar pesquisas promissoras com potencial de inovação em qualquer área do conhecimento."]
+    },
+    {
+    "tag": "financiamento_produto_pronto_PIPE",
+    "patterns": ["Posso receber financiamento do PIPE se meu produto já estiver pronto?", "O PIPE financia produtos já desenvolvidos?"],
+    "responses": ["Não. O PIPE destina-se a apoiar projetos de pesquisa para inovação, não para produtos já desenvolvidos. Nesse caso, outras formas de financiamento podem ser mais adequadas."]
+    },
+    {
+    "tag": "titulacao_necessaria_PIPE",
+    "patterns": ["É necessário ter título de doutor para solicitar financiamento no PIPE?", "Quais são os requisitos de titulação para o PIPE?"],
+    "responses": ["Não. Embora seja valorizada a titulação acadêmica, não é obrigatório ter título de doutor para solicitar financiamento no PIPE. A experiência e competência na área do projeto são fundamentais."]
+    },
+    {
+    "tag": "experiencia_area_PIPE",
+    "patterns": ["Posso submeter um projeto em uma área na qual não tenho formação?", "É possível submeter um projeto em uma área diferente da minha formação?"],
+    "responses": ["No PIPE, é fundamental demonstrar experiência na área do projeto. A equipe deve incluir profissionais de todas as áreas relevantes para a pesquisa."]
+    },
+    {
+    "tag": "dedicacao_projeto_PIPE",
+    "patterns": ["É necessário ter dedicação exclusiva ao projeto no PIPE?", "Qual é a dedicação mínima exigida para os projetos do PIPE?"],
+    "responses": ["Depende da situação. Caso o pesquisador principal seja pago pela empresa, é exigida uma dedicação mínima de 24 horas semanais ao projeto. Em casos excepcionais, pode-se solicitar uma bolsa de pesquisa com dedicação de 40 horas semanais."]
+    },
+    {
+    "tag": "projetos_fora_SP_PIPE",
+    "patterns": ["Pesquisadores e empresas fora do Estado de São Paulo podem apresentar projetos ao PIPE?", "Quem pode participar do PIPE além das empresas do Estado de São Paulo?"],
+    "responses": ["O pesquisador responsável deve residir no Estado de São Paulo para ser elegível ao PIPE. No entanto, empresas já constituídas fora do estado podem participar, desde que o pesquisador submeta o projeto em nome da empresa."]
+    },
+    {
+    "tag": "consulta_mais_informacoes_PIPE",
+    "patterns": ["Onde posso obter mais informações sobre o PIPE?", "Como posso saber mais sobre o PIPE?"],
+    "responses": ["Você pode encontrar mais informações detalhadas sobre o PIPE no site oficial da FAPESP, em fapesp.br/pipe. Além disso, eventos periódicos são realizados para esclarecer dúvidas."]
+    }
+]
+}
